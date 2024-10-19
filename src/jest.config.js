@@ -1,6 +1,6 @@
 export default {
   preset: 'ts-jest',
-  testEnvironment: 'jest-environment-jsdom',
+  testEnvironment: 'jsdom',
   moduleNameMapper: {
     '\\.(css|less)$': 'identity-obj-proxy',
   },

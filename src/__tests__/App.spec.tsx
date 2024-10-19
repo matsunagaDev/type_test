@@ -1,7 +1,5 @@
-/**
- * @jest-environment jsdom
- */
 import { render, screen, waitFor } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import App from '../App';
 
 // createClient関数をモック
